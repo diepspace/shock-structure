@@ -1,2 +1,2 @@
-# shock-structure
-A MATLAB algorithm to compute the flow properties within a continuum normal shock
+# Internal Structure of A Shock Wave
+This repository presents a MATLAB algorithm that computes the flow properties within a continuum normal shock. The Navier-Stokes equations, which effectively model this thin region at moderate Mach numbers, were recasted such that the mass and momentum energy equations describe the spatial derivative of velocity, $\frac{du}{dx}$. The energy equation was recasted to describe the spatial derivative of temperature, $\frac{dT}{dx}$. The Rankine–Hugoniot jump conditions provided a means to compute the boundary conditions and a marching scheme was used to integrate from the downstream to the upstream state of the shock.
