@@ -1,8 +1,8 @@
-# MacOS generated files
+# MacOS folder system file
 .DS_store
 
 # MATLAB autosave files
 *.asv
 
-# Report folder
+# Internal documents folder
 documents/
